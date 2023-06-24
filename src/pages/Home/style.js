@@ -5,20 +5,21 @@ const styles = StyleSheet.create({
         backgroundColor: '#606c38',
         alignItems: 'center',
         justifyContent: 'center',
-        height: '100%'
+        flex: 1
     },
     opcoes:{
         marginTop: '30px',
         flexDirection: 'row',
         columnGap: '20px',
-        width: '40%'
+        width: '90%',
+        justifyContent: 'center'
     },
     
     btnopcao:{
         borderRadius: '10px',
         border: '2px solid black',
         height: '50px',
-        width: '100%',
+        width: '40%',
         textAlign: 'center',
         fontSize: '20px',
         backgroundColor: 'white',
@@ -27,7 +28,9 @@ const styles = StyleSheet.create({
     titulo:{
         color: 'black',
         fontWeight: 'bold',
-        fontSize: '40px'
+        fontSize: '40px',
+        width: '80%',
+        textAlign: 'center'
     }
 })
 
